@@ -1,0 +1,206 @@
+﻿ND_RelParSet_K01 = {
+
+Name = 10045_S355JR
+
+PARAMETERS =
+{
+  Name = PTC_MATERIAL_DESCRIPTION
+  Type = String
+  Default = 'Structural steel'
+  Access = Full
+},
+{
+  Name = TEMPERATURE
+  Type = Real
+  Default = 0.000000e+00 C
+  Access = Full
+},
+{
+  Name = PTC_INITIAL_BEND_Y_FACTOR
+  Type = Real
+  Default = 7.853980e-01
+  Access = Full
+},
+{
+  Name = PTC_BEND_TABLE
+  Type = String
+  Default = '-'
+  Access = Full
+},
+{
+  Name = PTC_MATERIAL_TYPE
+  Type = Integer
+  Default = 9
+  Access = Locked
+},
+{
+  Name = PTC_FAILURE_CRITERION_TYPE
+  Type = String
+  Default = 'DISTORTION ENERGY (VON MISES)'
+  Access = Locked
+},
+{
+  Name = PTC_FATIGUE_TYPE
+  Type = String
+  Default = 'UNIFIED MATERIAL LAW (UML)'
+  Access = Locked
+},
+{
+  Name = PTC_MATERIAL_SUB_TYPE
+  Type = String
+  Default = 'LINEAR'
+  Access = Locked
+},
+{
+  Name = PTC_YOUNG_MODULUS
+  Type = Real
+  Default = 2.100000e+05 MPa
+  Access = Full
+},
+{
+  Name = PTC_POISSON_RATIO
+  Type = Real
+  Default = 2.800000e-01
+  Access = Full
+},
+{
+  Name = PTC_MASS_DENSITY
+  Type = Real
+  Default = 7.850000e+03 kg/m^3
+  Access = Full
+},
+{
+  Name = PTC_THERMAL_EXPANSION_COEF
+  Type = Real
+  Default = 1.100000e-05 /K
+  Access = Full
+},
+{
+  Name = PTC_THERMAL_CONDUCTIVITY
+  Type = Real
+  Default = 1.400000e+01 W/(m K)
+  Access = Full
+},
+{
+  Name = PTC_SPECIFIC_HEAT
+  Type = Real
+  Default = 4.400000e+02 joule/(kg K)
+  Access = Full
+},
+{
+  Name = PTC_XHATCH_FILE
+  Type = String
+  Default = 'STEEL'
+  Access = Full
+},
+{
+  Name = PTC_HARDNESS
+  Type = Real
+  Default = 1.500000e+02
+  Access = Full
+},
+{
+  Name = PTC_HARDNESS_TYPE
+  Type = String
+  Default = 'HB'
+  Access = Full
+},
+{
+  Name = PTC_CONDITION
+  Type = String
+  Default = '-'
+  Access = Full
+},
+{
+  Name = PTC_DEFAULT_APPEARANCE
+  Type = String
+  Default = 'steel'
+  Access = Locked
+},
+{
+  Name = SELECT_EN_NAME
+  Type = String
+  Default = 'S355JR'
+  Access = Full
+  Description = 'EN ime materiala'
+},
+{
+  Name = SELECT_DIN_NAME
+  Type = String
+  Default = 'S355JR'
+  Access = Full
+  Description = 'DIN ime materiala'
+},
+{
+  Name = SELECT_MATERIAL_NUMBER
+  Type = String
+  Default = '1.0045'
+  Access = Full
+  Description = 'št. materiala'
+},
+{
+  Name = SELECT_ASTM_NAME
+  Type = String
+  Default = '-'
+  Access = Full
+  Description = 'ASTM ime materiala'
+},
+{
+  Name = SELECT_UNS_NUMBER
+  Type = String
+  Default = '-'
+  Access = Full
+  Description = 'UNS št. materiala'
+},
+{
+  Name = STANDARD_EN_DELIVERYSPEC
+  Type = String
+  Default = 'DIN EN 10025-2'
+  Access = Full
+  Description = 'EN standard'
+},
+{
+  Name = STANDARD_DIN_DELIVERYSPEC
+  Type = String
+  Default = 'DIN 17100'
+  Access = Full
+  Description = 'DIN standard'
+},
+{
+  Name = PTC_TENSILE_YIELD_STRESS
+  Type = Real
+  Default = 2.750000e+02 MPa
+  Access = Full
+},
+{
+  Name = PTC_FATIGUE_MATERIAL_TYPE
+  Type = String
+  Default = 'UNALLOYED STEELS'
+  Access = Full
+},
+{
+  Name = PTC_FATIGUE_MATERIAL_FINISH
+  Type = String
+  Default = 'AVERAGE MACHINED'
+  Access = Full
+},
+{
+  Name = PTC_TENSILE_ULTIMATE_STRESS
+  Type = Real
+  Default = 4.500000e+02 MPa
+  Access = Full
+},
+{
+  Name = PTC_FATIGUE_STRNGTH_REDUCT_FCTR
+  Type = Real
+  Default = 1.000000e+00
+  Access = Full
+},
+{
+  Name = PTC_APPEARANCE_1
+  Type = String
+  Default = 'steel'
+  Access = Full
+}
+
+}
