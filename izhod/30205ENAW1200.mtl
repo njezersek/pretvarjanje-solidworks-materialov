@@ -1,0 +1,19 @@
+30205ENAW1200 = { 
+
+Name = 30205ENAW1200
+
+PARAMETERS = 
+{
+  Name = PTC_MATERIAL_DESCRIPTION
+  Type = String
+  Default = 'DIN 201 light metal and aluminum alloy'
+  Access = Full
+},
+{
+  Name = PTC_YOUNG_MODULUS
+  Type = Real
+  Default = 70000000000MPa
+  Access = Full
+}
+
+} 
